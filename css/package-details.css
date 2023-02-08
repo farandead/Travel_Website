@@ -1,0 +1,246 @@
+*{
+    font-family: "Roboto Condensed", sans-serif;
+    transition: 0.2s all ease-in-out;
+   
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+* Image Container */
+
+.row{
+    margin: auto;
+    padding-left: 22vmax;
+    
+    background-color: rgb(89, 131, 131);
+}
+
+.column {
+    
+    
+    float: left;
+    width: 10%;
+    padding: 0.8vmax;
+    
+  }
+  .color-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    background-color: rgb(216, 216, 217);
+    margin-top: 2vmax;
+    border-radius: 8px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+    width: 7vmax;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .main-package-details-container{
+    min-width: 100vmin;
+    max-width: fit-content;
+  }
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    background-color: aliceblue;
+   
+  }
+  #expandedImg{
+    width: 60vmin;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 1vmax;
+    left: 1vmax;
+    color: white;
+    font-size: 2vmax;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 3vmax;
+    cursor: pointer;
+  }
+
+.main-package-details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.details-heading p{
+    text-align: center;
+    font-size: 2.5vmax;
+    letter-spacing: 0.3vmax;
+    font-family: "Roboto Condensed", sans-serif;
+    color:rgb(7, 43, 94);
+    font-weight: bold;
+
+}
+.ammentities-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-top: 3vmax;
+    margin-bottom: 3vmax;
+}
+.ammentities-container div{
+    background-color: whitesmoke;
+    border-radius: 50vmax;
+    padding: 2vmax 2vmax;
+    width: 10vmax;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+.ammentities-container div i{
+    font-size: 3vmax;
+    padding-right: 1vmax;
+}
+.ammentities-container div img{
+    padding-right: 1vmax;
+    width: 4vmax;
+}
+.package-details-heading p{
+    font-size: 3vmax;
+    color:  rgb(7, 43, 94);;
+    font-weight: bold;
+}
+.package-details-list{
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-wrap:wrap ;
+   
+   
+}
+.package-details-list p{
+    margin: 3vmax 2vmax;
+    font-size: 1.2vmax;
+
+    
+   
+}
+.package-details-list p:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.package-details-list i{
+    margin: 1vmax 2vmax;
+    font-size: 2vmax;
+    color:rgb(7, 43, 94);
+}
+.icon-container span{
+    font-size: 1.1vmax;
+}
+.package-information{
+    display: flex;
+}
+.info-sub-container{
+    display: flex;
+    align-items: baseline;
+    margin-left:3vmax ;
+    margin-right:3vmax ;
+}
+.info-sub-container span{
+   
+   font-size: 1.4vmax;
+}
+.info-sub-container p{
+    color: rgb(7, 43, 94);
+    font-size: 1.2vmax;
+    padding-right: 1vmax;
+    font-weight: bold;
+}
+.booking-button{
+    margin-bottom: 10vmax;
+    margin-top: 5vmax;
+} 
+.booking-button button{
+    width: 15vmax;
+    height: 3vmax;
+    background-color: rgb(7, 43, 94);
+    border-radius: 6px;
+    color: white;
+    border:none;
+    cursor: pointer;
+
+}
+.booking-button button:hover{
+    transform: scale(1.1);
+    background-color: rgb(21, 74, 147);
+    
+
+}
+.price-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+   
+}
+.price-container P{
+    color:  rgb(7, 43, 94);
+    text-transform: capitalize;
+    margin-right:20vmax;
+    font-size: 1.5vmax;
+    font-weight: bold;
+}
+.price-container span{
+    font-size: 2.5vmax;
+}
+
+@media screen and (max-width:750px) {
+    .price-container{
+        font-size: 2vmax;
+        width: 80%;
+    }
+    .price-container P{
+        color:  rgb(7, 43, 94);
+        text-transform: capitalize;
+        margin-right:20vmax;
+        font-size: 4vmax;
+        font-weight: bold;
+    }
+    .price-container span{
+        font-size: 3vmax;
+    }
+    #imgtext {
+        position: absolute;
+        bottom: 14px;
+        left: 48vmin;
+        color: rgb(255, 255, 255);
+        font-size: 2.8vmin;
+    }
+}

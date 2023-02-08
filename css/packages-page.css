@@ -1,0 +1,436 @@
+*{
+    transition: 0.4s all ease-in-out;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    color: rgb(19, 19, 19);
+    
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.wallpaper-container img {
+    position: fixed;
+    z-index: -1;
+    top: -10vmax;
+    width: 100vmax;
+    filter: brightness(80%);
+}
+
+.main-text-container {
+    margin-top: 10vmax;
+    margin-bottom: 10vmax;
+    height: 30vmin;
+    width: 35vmax;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: black;
+}
+.main-text-container p {
+    text-align: center;
+    font-size: 2.5vmax;
+    text-transform: uppercase;
+}
+.main-text-container span{
+    font-size:0.9vmax
+}
+.main-heading p{
+    color: rgb(7, 43, 94);
+    font-size: 3vmax;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.main-sub-heading{
+    color: rgb(171, 169, 169);
+    width: 42vmax;
+    text-align: center;
+    font-size: 1.5vmax;
+    letter-spacing: 0.1vmax;
+}
+.main-container {
+    padding-top:4vmax ;
+    padding-bottom:8vmax ;
+    background-color: white;
+   
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+   
+   
+}
+.book-button-package{
+  height: 3vmax;
+margin: auto;
+margin-top: 2vmax;
+width: 80%;
+background-color:  rgb(7, 43, 94);
+border: none;
+color: white;
+cursor: pointer;
+border-radius: 6px;
+font-size: 0.8vmax;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+justify-items: center;
+
+
+
+}
+.package-container{
+  padding-bottom: 2vmax;
+  min-height: 10vmax;
+  max-height: fit-content;
+}
+#no-searh-notification{
+  color: rgb(7, 43, 94);
+  font-size: 3vmin
+}
+#package_type_options{
+  width: 15vmin;
+  outline: none;
+  border: none;
+  height: 5vmin;
+  font-size: 0.8vmax;
+  text-transform: uppercase;
+  color: gray;
+  border-radius: 6px;
+
+}
+select {
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  appearance:none;
+
+}
+
+.icons-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    justify-items:center;
+    width: 100%;
+    margin-top: 5vmax;
+    
+    
+}
+.icons-container div{
+   
+    width: 50%;
+    height: 2vmax;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left:1vmax ;
+    margin-right:1vmax;
+    background-color:rgb(232, 235, 235);
+    font-size: 1vmax;
+    border-radius:6px ;
+    padding-top: 0.5vmax;
+    padding-bottom: 0.5vmax;
+}
+.icons-container div i{
+   
+    padding-right: 1vmin;
+    font-size: larger;
+   margin-left: 2vmax;
+
+}
+.icons-container div span{
+   
+    padding-right: 1vmin;
+    font-size: larger;
+  margin-right: 8vmax;
+  letter-spacing: 0.2vmax;
+
+}
+.main-packages-container{
+    display: flex;
+    width: 90%;
+    box-shadow: 0px 0px 0px rgb(50, 50, 50);
+    margin-top: 3vmax;
+    
+    justify-items: center;
+    justify-content: space-around;
+}
+.main-packages-container div{
+    padding-top: 2vmax;
+}
+.filter-contaniner{
+    width: 94%;
+    margin-right: 1vmax;
+    color: rgb(7, 43, 94);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 239, 239);
+    height: fit-content;
+    padding-bottom: 4vmax;
+    padding-right: 4vmax;
+    margin-right: 2vmax;
+    
+}
+.filter-heading{
+    margin-top: -2vmax;
+}
+.filter-contaniner div{
+   
+    padding-left: 3vmax;
+    margin-top: -1vmax;
+    
+}
+.filter-contaniner div p{
+   
+    font-size: 1.1vmax;
+    
+}
+.filter-heading {
+    font-size: 2vmax;
+}
+.filter-heading i{
+    padding-right: 1vmax;
+}
+
+
+
+.departure-container input{
+    width: 8vmax;
+    height: 3vmax;
+    font-size: 0.8vmax;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    border:none;
+    outline: none;
+    border-radius: 6px;
+    
+}
+input[type="date"]::-webkit-textfield-decoration-container{
+    background-color: #2196F3;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* display: none; */
+    /* -webkit-appearance: none; */
+   
+   
+  
+    /* filter: invert(100%); */
+    font-size: 1vmax;
+    
+    
+    
+}
+
+
+.packages-sub-container{
+    width: 55%;
+}
+.filter-contaniner button{
+    height: 3vmax;
+    margin: auto;
+    margin-top: 2vmax;
+    width: 80%;
+    background-color:  rgb(7, 43, 94);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 0.8vmax;
+}
+.filter-contaniner button:hover{
+   
+    background-color:  rgb(11, 61, 129);
+    
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 2vmax;
+    margin-bottom: 1vmax;
+    cursor: pointer;
+    font-size: 1vmax;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    background-color: rgb(138, 138, 138);
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 0.5vmax;
+      left: 0.5vmax;
+      width: 0.5vmax;
+      height: 0.5vmax;
+      border-radius: 50%;
+      background: white;
+  }
+  .package-container{
+
+    background-color: rgb(255, 253, 253);
+    margin-top:-2vmax;
+    width: 39vmax;
+    
+    min-height: 10vmax;
+    max-height: fit-content;
+
+    margin-right: auto;
+    margin-top: 3vmax;
+    margin-left:auto ;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-bottom: 2vmax;
+
+  }
+  .package-container .package-heading,.package-sub-heading,.package-price{
+    padding-left: 1vmax;
+  }
+  .packages-sub-container{
+    justify-content: center;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+    background-color: #ebeced;
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 5vmax;
+}
+  
+
+  .package-img img{
+    width: 41vmax;
+    margin-top: -4vmax;
+  }
+
+  .package-heading {
+    margin-top: -2vmax;
+  }
+  .package-heading p{
+    font-size: 2.5vmax;
+    letter-spacing: 0.2vmax;
+    color: rgb(7, 43, 94);
+  }
+  .package-sub-heading{
+    font-size: 1.2vmax;
+  }
+  .package-sub-heading{
+    text-align: left;
+    margin-top: -2vmax;
+  }
+  .package-price p{
+    color:  rgb(7, 43, 94);
+   
+    font-size: 2.5vmax;
+    margin-top: -0vmax;
+    margin-left: 26vmax;
+  }
+  .package-price span{
+    color: rgb(88, 87, 87);
+    font-size: 1vmax;
+  }
+
+  .package-container {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgb(210, 210, 210);
+
+  }
+  .package-container:hover {
+    transform: scale(1.1);
+
+  }
+
+
+  @media screen and (max-width:750px) {
+
+    .package-container{
+
+        background-color: rgb(255, 253, 253);
+        margin-top:-2vmax;
+        width: 24vmax;
+        
+        min-height: 24vmax;
+        max-height: fit-content;
+    
+        margin-right: auto;
+        margin-top: 3vmax;
+        margin-left:auto ;
+        border-radius: 6px;
+        overflow: hidden;
+    
+      }
+      .package-img img {
+        width: 24vmax;
+        margin-top: -4vmax;
+    }
+      .packages-sub-container{
+        width: 70%;
+    }
+    .filter-contaniner{
+        width: 95%;
+        margin-right: 1vmin;
+        padding-right: 1vmin;
+    }
+    .icons-container div span{
+   
+        padding-right: 1vmin;
+        font-size: larger;
+      margin-right: 7vmax;
+      letter-spacing: 0.2vmax;
+    
+    }
+    .package-price p {
+      color: rgb(7, 43, 94);
+      font-size: 2.5vmax;
+      margin-top: 0vmax;
+      margin-left: 6vmax;
+  }
+
+    
+  }
+ 

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap");
+:root {
+    --color: #f85300;
+  }
+  
+  * {
+    transition: 0.2s all ease-in-out;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+.order-confirmation-container{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10vmax;
+    margin-bottom: 10vmax;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(167, 167, 167);
+    border-radius: 6px;
+    padding: 6vmax 6vmax;
+}
+.order-confirmation-sub-container{
+    font-size: 1vmax;
+}
+.order-confirmation-sub-container-img{
+    background-color:rgb(7, 43, 94);
+    border-radius: 5vmax;
+    padding: 2vmax 2vmax;
+}
+.order-confirmation-sub-container-img:hover{
+    transform: rotate(-30deg);
+   
+}
+.order-confirmation-sub-container img{
+    width: 5vmax;
+    filter: invert(130%);
+ 
+}
+.order-confirmation-sub-container-paragraph{
+    width: 20vmax;
+    text-align: left;
+    padding-left: 6vmax;
+}
+#product_name{
+    font-family: 'Staatliches', cursive;
+    color: rgb(7, 43, 94);
+    letter-spacing: 2px;
+}
+#date{
+    font-weight: 600;
+    font-size: 0.8vmax;
+}
+.order-confirmation-sub-container p strong{
+    padding-right: 0.2vmax;
+}
